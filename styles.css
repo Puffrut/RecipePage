@@ -1,0 +1,151 @@
+:root {
+    
+    --font-heading: Helvetica, sans-serif;
+    --font-p: Verdana, sans-serif;
+    --col-nav: black;
+    --col-section: #E5E3D4;
+    --col-footer: black;
+}
+
+body {
+    font-family: var(--font-p);
+    background-color:#BEB0FF;
+    
+    
+    
+    
+    
+}
+
+.responsive {
+    width: 100%;
+    
+
+
+}
+
+nav{
+    background-color: var(--col-nav);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+    
+   
+    
+    
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    
+    
+   
+    
+    
+}
+
+section{
+    background-color: var(--col-section);
+    font-family: var(--font-p);
+}
+
+footer{
+    background-color: var(--col-footer);
+    color: white;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: var(--font-heading);
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-family: var(--font-heading);
+}
+h3{
+    font-family: var(--font-heading);
+}
+
+.story{
+    text-align: center;
+}
+
+.serve-time{
+    
+    display: inline;
+}
+
+.ingred{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.equip{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.equip-list{
+    text-align: center;
+    display: inline;
+}
+.direct{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.step1{
+    text-align: center;
+}
+.step2{
+    text-align: center;
+}
+.step3{
+    text-align: center;
+}
+.step4{
+    text-align: center;
+}
+
+.menu{
+    word-spacing: 1em;
+}
+
+.ingd{
+    text-align: center;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.oingd{
+    text-align: center;
+}
+.elist{
+    list-style-type: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
